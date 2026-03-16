@@ -9,6 +9,6 @@ Then, set up your GCP credentials according to the documentation at https://clou
 
 Next, clone this repo and run `pip install -r requirements.txt` to install the Vertex AI Libraries. 
 
-Update `app.py` to include your project ID.
+Update `app.py` to include your project ID. (If you forgot your project ID use `gcloud config get-value project`)
 
 Finally, run `python3 app.py` to test if everything works!
